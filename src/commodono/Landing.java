@@ -43,9 +43,17 @@ public class Landing extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(28, 28, 34));
 
-        myButton1.setText("myButton1");
+        myButton1.setForeground(new java.awt.Color(0, 0, 0));
+        myButton1.setText("Create an account");
+        myButton1.setBase(new java.awt.Color(8, 221, 99));
+        myButton1.setFont(new java.awt.Font("Segoe UI", 3, 24)); // NOI18N
+        myButton1.setRadius(24);
 
-        myButton2.setText("myButton1");
+        myButton2.setForeground(new java.awt.Color(0, 0, 0));
+        myButton2.setText("Log in");
+        myButton2.setBase(new java.awt.Color(8, 221, 99));
+        myButton2.setFont(new java.awt.Font("Segoe UI", 3, 24)); // NOI18N
+        myButton2.setRadius(24);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
